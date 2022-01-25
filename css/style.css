@@ -10,12 +10,11 @@ body{
 
 /* COMMONS */
 .container{
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 a{
     text-decoration: none;
-    color: black;
 }
 li{
     list-style: none;
