@@ -9,6 +9,10 @@ body{
 }
 
 /* COMMONS */
+.container{
+    width: 60%;
+    margin: auto;
+}
 a{
     text-decoration: none;
     color: black;
@@ -29,10 +33,14 @@ img{
 /* HEADER */
 header{
     height: 100px;
+    width: 100%;
     border-bottom: 1px solid #cbcbcb;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 /* first raw */
 #first-row-header img{   
@@ -65,4 +73,43 @@ header{
 #active {
     border-bottom: 3px solid #3367d6;
     
+}
+
+/* MAIN */
+
+main{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+main p{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.87);
+    line-height: 22px;
+}
+main h3{
+    padding: 30px 0;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #f5f5f5;
+    color: #949494;
+    height: 35px;
+    font-size: 12px;
+}
+footer .container{
+    height: 100%;
+}
+footer .col-sx{
+    flex-grow: 1;
+}
+footer a{
+    color: #949494;
+}
+footer li{
+    margin-right: 15px;
+}
+footer .d-flex{
+    align-items: center;
 }
